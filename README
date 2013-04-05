@@ -1,7 +1,0 @@
-Small TDD Lab using Python.
-
-1. Create a virtualenv environment and run it.
-2. Use this command to install all the dependencies: pip install -r requirements
-3. Use nose (using nosetests script with the --exe option because one of the
-   test module is an executable file) to run the tests.
-4. Have fun!
