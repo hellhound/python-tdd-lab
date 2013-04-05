@@ -1,0 +1,38 @@
+# based on http://sujee.net/tech/articles/gitignore/
+
+#python specific
+*.pyc
+
+# Mac OS X Finder and whatnot
+.*DS_Store
+
+# virtualdev
+env/
+
+# paster and buildout directories
+bin/
+var/
+extends-cache/
+eggs/
+develop-eggs/
+parts/
+
+# Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
+
+# automatic backup and temporary files files
+*.out
+*.tmp
+*~.nib
+*.sw*
+*~
+*.lock
+*.egg-info
+pylint
+.installed.cfg
+
+# coverage.py
+.coverage
+htmlcov
