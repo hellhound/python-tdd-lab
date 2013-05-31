@@ -4,7 +4,7 @@ from mockito import *
 from something import Something, Operand
 
 class SomethingTestCase(unittest.TestCase):
-    def test_init_should_assign_caca(self):
+    def test_init_should_assign_what(self):
         # setup
 
         # action
@@ -13,7 +13,7 @@ class SomethingTestCase(unittest.TestCase):
         # assert
         self.assertTrue("what", something.attribute)
 
-    def test_doing_something_should_return_string_algo(self):
+    def test_doing_something_should_return_string_something(self):
         # setup
         something = Something("what")
 
@@ -23,7 +23,7 @@ class SomethingTestCase(unittest.TestCase):
         # assert
         self.assertTrue("something", ret)
 
-    def test_doing_something_should_return_string_algo2(self):
+    def test_doing_something_should_return_string_something_else(self):
         # setup
         something = Something(any(unicode))
 
